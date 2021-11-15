@@ -1,0 +1,2 @@
+var usuarioSesion = ""
+var tipoPerfilSesion = ""
