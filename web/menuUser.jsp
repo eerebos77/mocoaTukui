@@ -1,6 +1,6 @@
 <%-- 
-    Document   : consultarUsuario
-    Created on : 12/11/2021, 08:08:26 AM
+    Document   : menuUser
+    Created on : 15/11/2021, 11:44:15 AM
     Author     : Juan Rojas
 --%>
 
@@ -26,18 +26,6 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="usuarios.jsp">Usuarios</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="empresas.jsp">Empresas</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="">Social</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="">Buscar Usuario</a>
-                                    </li>
                                     <li class="nav-item">
                                         <a class="nav-link active" aria-current="page" href="">  </a>
                                     </li> 

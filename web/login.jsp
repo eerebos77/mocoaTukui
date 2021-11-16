@@ -77,7 +77,7 @@
                     }).then(function (res) {
                         lc.Usuario = res.data.Usuario;
                         if(lc.Usuario.contrasenia === lc.contrasenia){
-                            document.cookie = lc.Usuario.nombreUsuario;
+                            document.cookie = lc.Usuario.usuario;
                             if(lc.Usuario.tipoPerfil === "ADMINISTRADOR"){window.location.href = 'indexAdmin.jsp';}
                             if(lc.Usuario.tipoPerfil === "JAC"){window.location.href = 'indexJac.jsp';}
                             if(lc.Usuario.tipoPerfil === "USUARIO"){window.location.href = 'indexUsuario.jsp';}

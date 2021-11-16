@@ -36,7 +36,11 @@
                     <div class="row">
                         <div class="col-6"> 
                             <label>tipoDocumento</label>
-                            <input type="text" class="form-control" placeholder="TipoDocumento" ng-model="uc.tipoDocumento">
+                            <select class="form-control" ng-model="uc.tipoDocumento">
+                                <option>CC</option>
+                                <option>TI</option>
+                                <option>CE</option>
+                            </select>
                         </div>
                         <div class="col-6"> 
                             <label># de Documento</label>
@@ -46,7 +50,11 @@
                     <div class="row">
                         <div class="col-6"> 
                             <label>Perfil</label>
-                            <input type="text" class="form-control" placeholder="Perfil" ng-model="uc.tipoPerfil">
+                            <select class="form-control" ng-model="uc.tipoPerfil">
+                                <option>ADMINISTRADOR</option>
+                                <option>JAC</option>
+                                <option>USUARIO</option>
+                            </select>
                         </div>
                         <div class="col-6"> 
                             <label>Edad</label>
@@ -56,7 +64,16 @@
                     <div class="row">
                         <div class="col-6"> 
                             <label>Municipio</label>
-                            <input type="text" class="form-control" placeholder="Municipio" ng-model="uc.municipio">
+                            <select class="form-control" ng-model="uc.municipio">
+                                <option>Campucana</option>
+                                <option>San Antonio</option>
+                                <option>San Martin</option>
+                                <option>San Luis</option>
+                                <option>Monclar</option>
+                                <option>Pueblo Viejo</option>
+                                <option>Betania</option>
+                                <option>Mocoa</option>
+                            </select>
                         </div>
                         <div class="col-6"> 
                             <label>Telefono</label>

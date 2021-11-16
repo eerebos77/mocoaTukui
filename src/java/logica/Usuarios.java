@@ -324,7 +324,7 @@ public class Usuarios {
 
     public boolean guardarUsuario() {
         ConexionBD conexion = new ConexionBD();
-        String sql = "INSERT INTO mocoaG5.usuarios"
+        String sql = "INSERT INTO usuarios"
                 + "(nombreUsuario, tipoDocumento, documentoUsuario, tipoPerfil, edad, municipio, telefono, email, idEmpresa, idSocial, usuario, contrasenia)"
                 + "VALUES('" + this.nombreUsuario + "', "
                 + "'" + this.tipoDocumento + "', '" + this.documentoUsuario + "', "
